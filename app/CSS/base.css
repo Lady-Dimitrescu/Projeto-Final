@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+
+*{
+    margin: 1;
+    padding: 0;
+    font-family: "Lobster";
+}
+body {
+    background-color: rgba(245, 193, 238, 0.849);
+}
+
+header{
+    background-color: rgba(255, 0, 221, 0.83);
+    height: 9vh;
+}
+
+main{
+    background-color: rgb(252, 252, 252);
+    min-height: 84vh;
+    display:flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(249, 68, 162);
+    height: 8vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        color:antiquewhite;
+        text-align: center;
+    }
+}
