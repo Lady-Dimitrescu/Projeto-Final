@@ -1,5 +1,22 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/Cliente/edita/page": "app/Cliente/edita/page.js",
+  "/Cliente/novo/page": "app/Cliente/novo/page.js",
+  "/Fornecedor/novo/page": "app/Fornecedor/novo/page.js",
+  "/Cliente/page": "app/Cliente/page.js",
+  "/Fornecedor/page": "app/Fornecedor/page.js",
+  "/Funcionario/novo/page": "app/Funcionario/novo/page.js",
+  "/Funcionario/edita/page": "app/Funcionario/edita/page.js",
+  "/Funcionario/page": "app/Funcionario/page.js",
+  "/categoria/edita/page": "app/categoria/edita/page.js",
+  "/Pedido/page": "app/Pedido/page.js",
+  "/Pedido/edita/page": "app/Pedido/edita/page.js",
+  "/Produto/edita/page": "app/Produto/edita/page.js",
+  "/Fornecedor/edita/page": "app/Fornecedor/edita/page.js",
   "/page": "app/page.js",
-  "/Cliente/page": "app/Cliente/page.js"
+  "/Pedido/novo/page": "app/Pedido/novo/page.js",
+  "/Produto/page": "app/Produto/page.js",
+  "/Produto/novo/page": "app/Produto/novo/page.js",
+  "/categoria/novo/page": "app/categoria/novo/page.js",
+  "/categoria/page": "app/categoria/page.js"
 }

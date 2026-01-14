@@ -1,1 +1,161 @@
-{"version":3,"caseSensitive":false,"basePath":"","rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/categoria",
+      "regex": "^/categoria(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/categoria(?:/)?$"
+    },
+    {
+      "page": "/categoria/edita",
+      "regex": "^/categoria/edita(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/categoria/edita(?:/)?$"
+    },
+    {
+      "page": "/categoria/novo",
+      "regex": "^/categoria/novo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/categoria/novo(?:/)?$"
+    },
+    {
+      "page": "/Cliente",
+      "regex": "^/Cliente(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Cliente(?:/)?$"
+    },
+    {
+      "page": "/Cliente/edita",
+      "regex": "^/Cliente/edita(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Cliente/edita(?:/)?$"
+    },
+    {
+      "page": "/Cliente/novo",
+      "regex": "^/Cliente/novo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Cliente/novo(?:/)?$"
+    },
+    {
+      "page": "/Fornecedor",
+      "regex": "^/Fornecedor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Fornecedor(?:/)?$"
+    },
+    {
+      "page": "/Fornecedor/edita",
+      "regex": "^/Fornecedor/edita(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Fornecedor/edita(?:/)?$"
+    },
+    {
+      "page": "/Fornecedor/novo",
+      "regex": "^/Fornecedor/novo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Fornecedor/novo(?:/)?$"
+    },
+    {
+      "page": "/Funcionario",
+      "regex": "^/Funcionario(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Funcionario(?:/)?$"
+    },
+    {
+      "page": "/Funcionario/edita",
+      "regex": "^/Funcionario/edita(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Funcionario/edita(?:/)?$"
+    },
+    {
+      "page": "/Funcionario/novo",
+      "regex": "^/Funcionario/novo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Funcionario/novo(?:/)?$"
+    },
+    {
+      "page": "/Pedido",
+      "regex": "^/Pedido(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Pedido(?:/)?$"
+    },
+    {
+      "page": "/Pedido/edita",
+      "regex": "^/Pedido/edita(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Pedido/edita(?:/)?$"
+    },
+    {
+      "page": "/Pedido/novo",
+      "regex": "^/Pedido/novo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Pedido/novo(?:/)?$"
+    },
+    {
+      "page": "/Produto",
+      "regex": "^/Produto(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Produto(?:/)?$"
+    },
+    {
+      "page": "/Produto/edita",
+      "regex": "^/Produto/edita(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Produto/edita(?:/)?$"
+    },
+    {
+      "page": "/Produto/novo",
+      "regex": "^/Produto/novo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Produto/novo(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
