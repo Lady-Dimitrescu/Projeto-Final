@@ -1,4 +1,4 @@
-import "../css/listagem.css"
+import "../CSS/listagem.css"
 
 import { Produto } from "../../database/tables";
 import { redirect } from  "next/navigation";

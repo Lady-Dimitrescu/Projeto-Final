@@ -1,6 +1,6 @@
 // Editado OK
 
-import "../css/listagem.css"
+import "../CSS/listagem.css"
 import { Funcionario } from "../../database/tables";
 import { redirect } from  "next/navigation";
 

@@ -1,4 +1,4 @@
-import "../css/listagem.css"
+import "../CSS/listagem.css"
 
 
 import { Cliente } from "../../database/tables";

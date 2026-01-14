@@ -1,6 +1,6 @@
 //Editado ok
 
-import "../css/listagem.css"
+import "../CSS/listagem.css"
 
 import { Fornecedor } from "../../database/tables";
 import { redirect } from  "next/navigation";
